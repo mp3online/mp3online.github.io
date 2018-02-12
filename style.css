@@ -517,12 +517,12 @@ h6 {
 
 /* @XT_title: Touch wrapper */
 .xt_touch {
-  background: url("http://xtgem.com/template_images/CoffeBreak/content_bg.png") center top repeat-y, /*$bc*/#49412c/*e*/;
+  background: url("https://mp3online.github.io/content_bg.png") center top repeat-y, /*$bc*/#49412c/*e*/;
 }
 /* @XT_title: Touch header and navigation wrappers */
 .xt_touch .xt_header, .xt_touch .xt_navigation, .xt_touch .xt_navigation {
   background: /*$bc*/#49412c/*e*/;
-  background: url("http://xtgem.com/template_images/CoffeBreak/header_bg.png"), /*$lc*/#b07815/*e*/;
+  background: url("https://mp3online.github.io/header_bg.png"), /*$lc*/#b07815/*e*/;
 }
 /* @XT_title: Touch navigation */
 .xt_touch .xt_navigation {
