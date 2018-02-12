@@ -1,0 +1,761 @@
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+audio:not([controls]) {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.231;
+}
+
+body, button, input, select, textarea {
+  font-family: sans-serif;
+}
+
+::-moz-selection {
+  background: #acdd33;
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background: #acdd33;
+  color: #fff;
+  text-shadow: none;
+}
+
+a, .xt_link, .xt_touch .xt_link {
+  color: #00e;
+}
+
+a:visited, .xt_link:visited, .xt_touch .xt_link:visited {
+  color: #551a8b;
+}
+
+a:hover, .xt_link:hover, .xt_touch .xt_link:hover {
+  color: #06e;
+}
+
+a:focus, .xt_link:focus, .xt_touch .xt_link:focus {
+  outline: thin dotted;
+}
+
+a:hover, .xt_link:hover, .xt_touch .xt_link:hover, a:active, .xt_link:active, .xt_touch .xt_link:active {
+  outline: 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+blockquote {
+  margin: 1em 40px;
+}
+
+dfn {
+  font-style: italic;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+ins {
+  background: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+pre, code, kbd, samp {
+  font-family: monospace, monospace;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+q {
+  quotes: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+small {
+  font-size: 85%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+ul, ol {
+  margin: 1em 0;
+  padding: 0 0 0 40px;
+}
+
+dd {
+  margin: 0 0 0 40px;
+}
+
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 0;
+}
+
+form {
+  margin: 0;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  border: 0;
+  *margin-left: -7px;
+  padding: 0;
+}
+
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+button, input {
+  line-height: normal;
+  *overflow: visible;
+}
+
+table button, table input {
+  *overflow: auto;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical;
+  min-height: 70px;
+  width: 99%;
+  padding: 0;
+}
+
+input:invalid, textarea:invalid {
+  background-color: #f0dddd;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td {
+  vertical-align: top;
+}
+
+/* @XT_title: hide */
+.ir {
+  display: block;
+  border: 0;
+  text-indent: -999em;
+  overflow: hidden;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  text-align: left;
+  direction: ltr;
+}
+
+/* @XT_title: hide */
+.ir br {
+  display: none;
+}
+
+/* @XT_title: Hidden */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* @XT_title: Visually hidden */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* @XT_title: hide */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* @XT_title: hide */
+.invisible {
+  visibility: hidden;
+}
+
+/* @XT_title: hide */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* @XT_title: hide */
+.clearfix:after {
+  clear: both;
+}
+
+/* @XT_title: Clear fix for floating elements */
+.clearfix {
+  zoom: 1;
+}
+
+/* @XT_title: Content container */
+.xt_touch, .preview {
+  font-family: Tahoma;
+  background: /*$bc*/#49412c/*e*/;
+  color: /*$tc*/#baa985/*e*/;
+}
+
+a:active, .xt_link:active, .xt_touch .xt_link:active, a:hover, .xt_link:hover, .xt_touch .xt_link:hover, a:visited, .xt_link:visited, .xt_touch .xt_link:visited, a:link, .xt_link:link, .xt_touch .xt_link:link, a, .xt_link, .xt_touch .xt_link {
+  text-decoration: underline;
+  color: /*$c1*/#CCC0A6/*e*/;
+}
+
+/* @XT_title: Navigation and header */
+.xt_header, .xt_navigation, .xt_touch .xt_navigation {
+  background: /*$c13*/#996812/*e*/;
+}
+
+/* @XT_title: Navigation */
+.xt_navigation {
+  font-family: Tahoma;
+  border-bottom: solid 1px /*$c9*/#393322/*e*/;
+  padding: 5px 2px 5px 2px;
+}
+/* @XT_title: Navigation link */
+.xt_navigation a, .xt_navigation .xt_link, .xt_navigation .xt_touch .xt_link, .xt_touch .xt_navigation .xt_link {
+  display: inline;
+  background: /*$c10*/#19170F/*e*/;
+  height: 30px;
+  line-height: 30px;
+  padding: 3px;
+  margin: 2px;
+  border: solid 1px /*$c6*/#B8AB89/*e*/;
+  color: /*$c3*/#F1EEE7/*e*/;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: normal;
+}
+/* @XT_title: Navigation active link */
+.xt_navigation .active a, .xt_navigation .active .xt_link, .xt_navigation .active .xt_touch .xt_link, .xt_touch .xt_navigation .active .xt_link {
+  font-weight: bold;
+}
+
+/* @XT_title: Text style */
+.xt_text {
+  color: /*$tc*/#baa985/*e*/;
+}
+
+/* @XT_title: Normal text */
+.xt_text.normal {
+  font-size: 12px;
+}
+
+/* @XT_title: Small text */
+.xt_text.small {
+  font-size: 11px;
+}
+
+/* @XT_title: Large text */
+.xt_text.large {
+  font-size: 14px;
+}
+
+/* @XT_title: Containers */
+.xt_container, .xt_blog, .xt_list, .xt_footer, .xt_touch .xt_blog, .xt_touch .xt_list, .xt_touch .xt_footer {
+  padding: 3px;
+}
+
+/* @XT_title: Blog wrapper */
+.xt_blog {
+  color: /*$tc*/#baa985/*e*/;
+}
+/* @XT_title: Blog comments */
+.xt_blog .xt_blog_comments, .xt_blog .xt_blog_write_a_comment {
+  color: /*$c7*/#A89264/*e*/;
+  margin: 5px;
+  font-size: 11px;
+}
+/* @XT_title: Blog titles */
+.xt_blog .xt_blog_subtitle, .xt_blog .xt_blog_comments_title, .xt_blog .xt_blog_write_a_comment_title {
+  font-size: 13px;
+  margin: 5px;
+}
+
+/* @XT_title: Buttons 1 */
+.xt_button, .xt_pagination a, .xt_pagination .xt_link, .xt_pagination .xt_touch .xt_link, .xt_touch .xt_pagination .xt_link, .xt_pagination .selected span, .xt_pagination .inactive span, .xt_touch .xt_pagination a, .xt_touch .xt_pagination .selected span, .xt_touch .xt_pagination .inactive span, a.xt_button, .xt_button.xt_link, .xt_pagination a.xt_link, .xt_pagination .selected span.xt_link, .xt_pagination .inactive span.xt_link, .xt_touch .xt_pagination a.xt_link, .xt_touch .xt_pagination .selected span.xt_link, .xt_touch .xt_pagination .inactive span.xt_link, .xt_pagination a, .xt_pagination .xt_link, .xt_pagination .xt_touch .xt_link, .xt_touch .xt_pagination .xt_link, .xt_touch .xt_button.xt_link, .xt_pagination .xt_touch a.xt_link, .xt_pagination .selected .xt_touch span.xt_link, .xt_pagination .inactive .xt_touch span.xt_link, .xt_touch .xt_pagination a {
+  display: inline;
+  background: /*$c9*/#393322/*e*/;
+  height: auto;
+  padding: 3px;
+  border: solid 1px /*$c4*/#796C49/*e*/;
+  color: /*$c2*/#D6CBB6/*e*/;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+/* @XT_title: Buttons 2 */
+.xt_button, .xt_pagination a, .xt_pagination .xt_link, .xt_pagination .xt_touch .xt_link, .xt_touch .xt_pagination .xt_link, .xt_pagination .selected span, .xt_pagination .inactive span, .xt_touch .xt_pagination a, .xt_touch .xt_pagination .selected span, .xt_touch .xt_pagination .inactive span {
+  margin-top: 5px;
+}
+
+/* @XT_title: Buttons 3 */
+.xt_pagination a, .xt_pagination .xt_link, .xt_pagination .xt_touch .xt_link, .xt_touch .xt_pagination .xt_link, .xt_pagination .selected span, .xt_pagination .inactive span {
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+}
+/* @XT_title: Pagination inactive item */
+.xt_pagination .inactive span {
+  border: none;
+  background: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+
+/* @XT_title: List */
+.xt_list {
+  font-size: 13px;
+}
+/* @XT_title: Links */
+.xt_list a, .xt_list .xt_link, .xt_list .xt_touch .xt_link, .xt_touch .xt_list .xt_link {
+  text-decoration: none;
+}
+/* @XT_title: Headings */
+.xt_list .xt_heading, .xt_list .xt_blog .xt_blog_subtitle, .xt_blog .xt_list .xt_blog_subtitle, .xt_list .xt_blog .xt_blog_comments_title, .xt_blog .xt_list .xt_blog_comments_title, .xt_list .xt_blog .xt_blog_write_a_comment_title, .xt_blog .xt_list .xt_blog_write_a_comment_title, .xt_list h1, .xt_list h2, .xt_list h3, .xt_list h4, .xt_list h5, .xt_list h6, .xt_list .xt_touch .xt_blog .xt_blog_subtitle, .xt_touch .xt_blog .xt_list .xt_blog_subtitle, .xt_list .xt_touch .xt_blog .xt_blog_comments_title, .xt_touch .xt_blog .xt_list .xt_blog_comments_title, .xt_list .xt_touch .xt_blog .xt_blog_write_a_comment_title, .xt_touch .xt_blog .xt_list .xt_blog_write_a_comment_title, .xt_list .xt_touch h1, .xt_touch .xt_list h1, .xt_list .xt_touch h2, .xt_touch .xt_list h2, .xt_list .xt_touch h3, .xt_touch .xt_list h3, .xt_list .xt_touch h4, .xt_touch .xt_list h4, .xt_list .xt_touch h5, .xt_touch .xt_list h5, .xt_list .xt_touch h6, .xt_touch .xt_list h6 {
+  text-decoration: underline;
+}
+
+/* @XT_title: Label */
+.xt_label {
+  margin: 3px 0 1px 0;
+}
+/* @XT_title: Label text */
+.xt_label label {
+  color: /*$c8*/#9B8558/*e*/;
+}
+
+/* @XT_title: Input ant text box */
+.xt_input input, .xt_textarea textarea {
+  width: 100%;
+  padding: 0;
+  text-indent: 3px;
+  height: auto;
+  font-size: 13px;
+  color: /*$c11*/#090806/*e*/;
+}
+
+/* @XT_title: Text box */
+.xt_textarea textarea {
+  min-height: 40px;
+}
+
+/* @XT_title: Headings ant titles */
+.xt_heading, .xt_blog .xt_blog_subtitle, .xt_blog .xt_blog_comments_title, .xt_blog .xt_blog_write_a_comment_title, h1, h2, h3, h4, h5, h6, .xt_touch .xt_blog .xt_blog_subtitle, .xt_touch .xt_blog .xt_blog_comments_title, .xt_touch .xt_blog .xt_blog_write_a_comment_title, .xt_touch h1, .xt_touch h2, .xt_touch h3, .xt_touch h4, .xt_touch h5, .xt_touch h6 {
+  font-family: Tahoma;
+  color: /*$c1*/#CCC0A6/*e*/;
+  font-weight: bold;
+  margin: 5px 0 2px 0;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+h4 {
+  font-size: 13px;
+}
+
+h5 {
+  font-size: 12px;
+}
+
+h6 {
+  font-size: 11px;
+}
+
+/* @XT_title: Images */
+.xt_image, .xt_gallery a img, .xt_gallery .xt_link img, .xt_gallery .xt_touch .xt_link img, .xt_touch .xt_gallery .xt_link img, .xt_touch .xt_gallery a img {
+  margin: 2px;
+  border: solid 1px /*$c12*/#292519/*e*/;
+}
+
+/* @XT_title: Touch wrapper */
+.xt_touch {
+  background: url("http://xtgem.com/template_images/CoffeBreak/content_bg.png") center top repeat-y, /*$bc*/#49412c/*e*/;
+}
+/* @XT_title: Touch header and navigation wrappers */
+.xt_touch .xt_header, .xt_touch .xt_navigation, .xt_touch .xt_navigation {
+  background: /*$bc*/#49412c/*e*/;
+  background: url("http://xtgem.com/template_images/CoffeBreak/header_bg.png"), /*$lc*/#b07815/*e*/;
+}
+/* @XT_title: Touch navigation */
+.xt_touch .xt_navigation {
+  font-family: 'Rochester', cursive;
+  -moz-box-shadow: /*$c9*/#393322/*e*/ 0px 8px 12px;
+  -webkit-box-shadow: /*$c9*/#393322/*e*/ 0px 8px 12px;
+  -o-box-shadow: /*$c9*/#393322/*e*/ 0px 8px 12px;
+  box-shadow: /*$c9*/#393322/*e*/ 0px 8px 12px;
+  border-bottom: solid 1px /*$c9*/#393322/*e*/;
+  padding: 10px 5px 10px 5px;
+}
+/* @XT_title: Touch navigation link */
+.xt_touch .xt_navigation a, .xt_touch .xt_navigation .xt_link, .xt_touch .xt_navigation .xt_link {
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -o-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -khtml-border-radius: 7px;
+  border-radius: 7px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+  -moz-box-shadow: /*$c11*/#090806/*e*/ 1px 1px 2px;
+  -webkit-box-shadow: /*$c11*/#090806/*e*/ 1px 1px 2px;
+  -o-box-shadow: /*$c11*/#090806/*e*/ 1px 1px 2px;
+  box-shadow: /*$c11*/#090806/*e*/ 1px 1px 2px;
+  display: inline-block;
+  background: /*$c10*/#19170F/*e*/;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  margin: 5px;
+  border: solid 2px /*$c6*/#B8AB89/*e*/;
+  color: /*$c3*/#F1EEE7/*e*/;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* @XT_title: Touch navigation active link */
+.xt_touch .xt_navigation .active a, .xt_touch .xt_navigation .active .xt_link, .xt_touch .xt_navigation .active .xt_link {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+}
+/* @XT_title: Touch text */
+.xt_touch .xt_text {
+  color: /*$tc*/#baa985/*e*/;
+}
+/* @XT_title: Touch normal text */
+.xt_touch .xt_text.normal {
+  font-size: 12px;
+}
+/* @XT_title: Touch small text */
+.xt_touch .xt_text.small {
+  font-size: 11px;
+}
+/* @XT_title: Touch large text */
+.xt_touch .xt_text.large {
+  font-size: 14px;
+}
+/* @XT_title: Touch containers */
+.xt_touch .xt_container, .xt_touch .xt_blog, .xt_touch .xt_list, .xt_touch .xt_footer, .xt_touch .xt_blog, .xt_touch .xt_list, .xt_touch .xt_footer {
+  padding: 10px;
+}
+/* @XT_title: Touch blog wrapper */
+.xt_touch .xt_blog {
+  color: /*$tc*/#baa985/*e*/;
+}
+/* @XT_title: Touch blog comments */
+.xt_touch .xt_blog .xt_blog_comments, .xt_touch .xt_blog .xt_blog_write_a_comment {
+  color: /*$c7*/#A89264/*e*/;
+  margin: 10px;
+  font-size: 12px;
+}
+/* @XT_title: Touch titles */
+.xt_touch .xt_blog .xt_blog_subtitle, .xt_touch .xt_blog .xt_blog_comments_title, .xt_touch .xt_blog .xt_blog_write_a_comment_title {
+  font-size: 15px;
+  margin: 10px;
+}
+/* @XT_title: Touch buttons 1 */
+.xt_touch .xt_button, .xt_touch .xt_pagination a, .xt_pagination .xt_touch a, .xt_touch .xt_pagination .xt_link, .xt_pagination .xt_touch .xt_link, .xt_pagination .xt_touch .xt_link, .xt_touch .xt_pagination .xt_link, .xt_touch .xt_pagination .selected span, .xt_pagination .selected .xt_touch span, .xt_touch .xt_pagination .inactive span, .xt_pagination .inactive .xt_touch span, .xt_touch .xt_pagination a, .xt_touch .xt_pagination .selected span, .xt_touch .xt_pagination .inactive span, .xt_touch a.xt_button, .xt_touch .xt_button.xt_link, .xt_touch .xt_pagination a.xt_link, .xt_pagination .xt_touch a.xt_link, .xt_touch .xt_pagination .selected span.xt_link, .xt_pagination .selected .xt_touch span.xt_link, .xt_touch .xt_pagination .inactive span.xt_link, .xt_pagination .inactive .xt_touch span.xt_link, .xt_touch .xt_pagination a.xt_link, .xt_touch .xt_pagination .selected span.xt_link, .xt_touch .xt_pagination .inactive span.xt_link, .xt_touch .xt_pagination a, .xt_pagination .xt_touch a, .xt_touch .xt_pagination .xt_link, .xt_pagination .xt_touch .xt_link, .xt_pagination .xt_touch .xt_link, .xt_touch .xt_pagination .xt_link, .xt_touch .xt_button.xt_link, .xt_pagination .xt_touch a.xt_link, .xt_pagination .selected .xt_touch span.xt_link, .xt_pagination .inactive .xt_touch span.xt_link, .xt_touch .xt_pagination a {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: /*$c11*/#090806/*e*/ 0px 0px 3px;
+  -webkit-box-shadow: /*$c11*/#090806/*e*/ 0px 0px 3px;
+  -o-box-shadow: /*$c11*/#090806/*e*/ 0px 0px 3px;
+  box-shadow: /*$c11*/#090806/*e*/ 0px 0px 3px;
+  display: inline-block;
+  background: /*$c9*/#393322/*e*/;
+  height: auto;
+  padding: 5px;
+  border: solid 1px /*$c4*/#796C49/*e*/;
+  color: /*$c2*/#D6CBB6/*e*/;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 12px;
+}
+/* @XT_title: Touch buttons 2 */
+.xt_touch .xt_button, .xt_touch .xt_pagination a, .xt_pagination .xt_touch a, .xt_touch .xt_pagination .xt_link, .xt_pagination .xt_touch .xt_link, .xt_pagination .xt_touch .xt_link, .xt_touch .xt_pagination .xt_link, .xt_touch .xt_pagination .selected span, .xt_pagination .selected .xt_touch span, .xt_touch .xt_pagination .inactive span, .xt_pagination .inactive .xt_touch span, .xt_touch .xt_pagination a, .xt_touch .xt_pagination .selected span, .xt_touch .xt_pagination .inactive span {
+  margin-top: 10px;
+}
+/* @XT_title: Touch buttons 3 */
+.xt_touch .xt_pagination a, .xt_touch .xt_pagination .xt_link, .xt_touch .xt_pagination .xt_link, .xt_touch .xt_pagination .selected span, .xt_touch .xt_pagination .inactive span {
+  font-size: 14px;
+  font-weight: bold;
+  min-width: 25px;
+  text-align: center;
+}
+/* @XT_title: Touch pagination inactive item */
+.xt_touch .xt_pagination .inactive span {
+  border: none;
+  background: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+/* @XT_title: Touch list */
+.xt_touch .xt_list {
+  font-size: 16px;
+}
+/* @XT_title: Touch list link */
+.xt_touch .xt_list a, .xt_touch .xt_list .xt_link, .xt_touch .xt_list .xt_link {
+  text-decoration: none;
+}
+/* @XT_title: Touch headings */
+.xt_touch .xt_list .xt_heading, .xt_touch .xt_list .xt_blog .xt_blog_subtitle, .xt_blog .xt_touch .xt_list .xt_blog_subtitle, .xt_touch .xt_list .xt_blog .xt_blog_comments_title, .xt_blog .xt_touch .xt_list .xt_blog_comments_title, .xt_touch .xt_list .xt_blog .xt_blog_write_a_comment_title, .xt_blog .xt_touch .xt_list .xt_blog_write_a_comment_title, .xt_touch .xt_list h1, .xt_touch .xt_list h2, .xt_touch .xt_list h3, .xt_touch .xt_list h4, .xt_touch .xt_list h5, .xt_touch .xt_list h6, .xt_touch .xt_list .xt_blog .xt_blog_subtitle, .xt_touch .xt_blog .xt_list .xt_blog_subtitle, .xt_touch .xt_list .xt_blog .xt_blog_comments_title, .xt_touch .xt_blog .xt_list .xt_blog_comments_title, .xt_touch .xt_list .xt_blog .xt_blog_write_a_comment_title, .xt_touch .xt_blog .xt_list .xt_blog_write_a_comment_title, .xt_touch .xt_list h1, .xt_touch .xt_list h2, .xt_touch .xt_list h3, .xt_touch .xt_list h4, .xt_touch .xt_list h5, .xt_touch .xt_list h6 {
+  text-decoration: underline;
+}
+/* @XT_title: Touch label */
+.xt_touch .xt_label {
+  margin: 7px 0 3px 0;
+}
+/* @XT_title: Touch label text */
+.xt_touch .xt_label label {
+  color: /*$c8*/#9B8558/*e*/;
+}
+/* @XT_title: Touch input and text box */
+.xt_touch .xt_input input, .xt_touch .xt_textarea textarea {
+  color: #808080;
+  height: 21px;
+  border: 1px solid #cccccc;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 0;
+  text-indent: 3px;
+  min-height: 20px;
+  font-size: 13px;
+  -moz-box-shadow: /*$c5*/#D5CDB9/*e*/ 0px 0px 20px inset;
+  -webkit-box-shadow: /*$c5*/#D5CDB9/*e*/ 0px 0px 20px inset;
+  -o-box-shadow: /*$c5*/#D5CDB9/*e*/ 0px 0px 20px inset;
+  box-shadow: /*$c5*/#D5CDB9/*e*/ 0px 0px 20px inset;
+  color: /*$c11*/#090806/*e*/;
+}
+/* @XT_title: Touch text box */
+.xt_touch .xt_textarea textarea {
+  min-height: 60px;
+}
+/* @XT_title: Touch titles */
+.xt_touch .xt_heading, .xt_touch .xt_blog .xt_blog_subtitle, .xt_blog .xt_touch .xt_blog_subtitle, .xt_touch .xt_blog .xt_blog_comments_title, .xt_blog .xt_touch .xt_blog_comments_title, .xt_touch .xt_blog .xt_blog_write_a_comment_title, .xt_blog .xt_touch .xt_blog_write_a_comment_title, .xt_touch h1, .xt_touch h2, .xt_touch h3, .xt_touch h4, .xt_touch h5, .xt_touch h6, .xt_touch .xt_blog .xt_blog_subtitle, .xt_touch .xt_blog .xt_blog_comments_title, .xt_touch .xt_blog .xt_blog_write_a_comment_title, .xt_touch h1, .xt_touch h2, .xt_touch h3, .xt_touch h4, .xt_touch h5, .xt_touch h6 {
+  font-family: 'Rochester', cursive;
+  text-shadow: /*$c12*/#292519/*e*/ 1px 1px 2px;
+  color: /*$c1*/#CCC0A6/*e*/;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+}
+/* @XT_title: Touch H1 heading */
+.xt_touch h1 {
+  font-size: 19px;
+}
+/* @XT_title: Touch H2 heading */
+.xt_touch h2 {
+  font-size: 18px;
+}
+/* @XT_title: Touch H3 heading */
+.xt_touch h3 {
+  font-size: 17px;
+}
+/* @XT_title: Touch H4 heading */
+.xt_touch h4 {
+  font-size: 16px;
+}
+/* @XT_title: Touch H5 heading */
+.xt_touch h5 {
+  font-size: 15px;
+}
+/* @XT_title: Touch H6 heading */
+.xt_touch h6 {
+  font-size: 14px;
+}
+/* @XT_title: Touch images */
+.xt_touch .xt_image, .xt_touch .xt_gallery a img, .xt_gallery a .xt_touch img, .xt_touch .xt_gallery .xt_link img, .xt_gallery .xt_link .xt_touch img, .xt_gallery .xt_touch .xt_link img, .xt_touch .xt_gallery .xt_link img, .xt_touch .xt_gallery a img {
+  margin: 2px;
+  border: solid 1px /*$c12*/#292519/*e*/;
+}
+
+/*
+    {{base}}
+        Main color:
+        $bc:#49412c;
+
+        Text color:
+        $tc:#baa985;
+
+        Light color:
+        $lc:#b07815;
+    {{/end}}
+     
+    {{mix}}
+        $c1: lighten $tc 10
+        $c2: lighten $tc 15
+        $c3: lighten $tc 30
+        $c4: lighten $bc 15
+        $c5: lighten $bc 55
+        $c6: lighten $bc 40
+        $c7: darken $tc 10
+        $c8: darken $tc 15
+        $c9: darken $bc 5
+        $c10: darken $bc 15
+        $c11: darken $bc 20
+        $c12: darken $bc 10
+        $c13: darken $lc 5
+    {{/end}}
+    
+*/
