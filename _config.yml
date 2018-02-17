@@ -1,1 +1,4 @@
 theme: jekyll-theme-midnight
+redirects:
+    redirect_to: index.html
+    try_files: true
